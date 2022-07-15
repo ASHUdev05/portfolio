@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/ASHUdev05/portfolio.git/static/js/main.3a189ac2.js",
-    "index.html": "/ASHUdev05/portfolio.git/index.html",
-    "main.3a189ac2.js.map": "/ASHUdev05/portfolio.git/static/js/main.3a189ac2.js.map"
+    "main.js": "/static/js/main.3a189ac2.js",
+    "index.html": "/index.html",
+    "main.3a189ac2.js.map": "/static/js/main.3a189ac2.js.map"
   },
   "entrypoints": [
     "static/js/main.3a189ac2.js"

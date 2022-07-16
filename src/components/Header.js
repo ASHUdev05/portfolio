@@ -70,7 +70,7 @@ function Header() {
 
     return (
         <Stack>
-            <Circle position="absolute" bg="blue.100" opacity="0.1"
+            <Circle position="absolute" bg="blue.100" opacity={isNotSmallerScreen ? "0.1" : "0"}
                 w="300px" h="300px" alignSelf="flex-end" />
             <Flex direction={isNotSmallerScreen ? "row" : "column"}
                 spacing="200px" p={isNotSmallerScreen ? "32" : "0"}

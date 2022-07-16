@@ -7,7 +7,7 @@ function Skills() {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
   return (
     
-    <Box alignSelf="center" px="32" py="16" w="100%">
+    <Box alignSelf="center" px="32" py="16" w="100%" minW="500px">
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
         <Progressbar bgcolor="#99ff66" text="Golang" progress='55'  height={30} />
         <Progressbar bgcolor="#99ff66" text="Java" progress='90'  height={30} />
